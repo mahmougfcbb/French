@@ -1,5 +1,5 @@
 /* Configuration */
-const API_BASE = "https://french-0rmj.onrender.com";
+const API_BASE = "https://my-api-1-7kha.onrender.com";
 let currentPage = 1;
 const pageSize = 12;
 let totalItems = 0;
@@ -178,5 +178,6 @@ window.addEventListener("load", () => {
   loadPage(1, "");
 });
 window.addEventListener("beforeunload", () => { visitEnd(); });
+
 
 
